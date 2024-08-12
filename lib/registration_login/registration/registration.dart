@@ -5,7 +5,7 @@ class Registration_home extends StatelessWidget {
   Registration_home({super.key});
 
   final _formKey = GlobalKey<FormState>();
-  RegistratioPageController controller = RegistratioPageController();
+ final RegistratioPageController controller = RegistratioPageController();
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class Registration_home extends StatelessWidget {
               customTextFormField(
                   controller: controller.userTXT,
                   hint: '@gmail.com',
-                  label: 'Username',
+                  label: 'Email',
                   leadingIcon: Icons.person,
                   validator: (value) => emptyValidation(value: value)),
               customTextFormField(
