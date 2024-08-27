@@ -92,7 +92,7 @@ class _TodohomeState extends State<Todohome> {
                   ),
                   SizedBox(
                     height: 55,
-                    width: 80,
+                    width: 81,
                     child: ElevatedButton(
                         style: ButtonStyle(
                             backgroundColor:
